@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonHeader, IonItem, IonLabel, IonPage, IonTitle, IonToggle, IonToolbar } from '@ionic/react';
+import { IonBadge, IonButton, IonCheckbox, IonContent, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRadio, IonTitle, IonToggle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
@@ -23,7 +23,22 @@ const Tab1: React.FC = () => {
 
         <IonItem>
           <IonLabel>Toggle</IonLabel>
-          <IonToggle />
+          <IonToggle color="alans-color" />
+        </IonItem>
+
+        <IonItem>
+          <IonLabel>Checkbox</IonLabel>
+          <IonCheckbox color="alans-color" />
+        </IonItem>
+
+        <IonItem>
+          <IonLabel>Badge</IonLabel>
+          <IonBadge color="alans-color">14 notifications</IonBadge>
+        </IonItem>
+
+        <IonItem>
+          <IonLabel>Note</IonLabel>
+          <IonNote color="alans-color">3 unread</IonNote>
         </IonItem>
       </IonContent>
     </IonPage>

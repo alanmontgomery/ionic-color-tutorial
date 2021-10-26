@@ -1,1 +1,6 @@
-{}
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-color-tutorial",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

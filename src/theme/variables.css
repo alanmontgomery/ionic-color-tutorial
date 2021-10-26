@@ -3,20 +3,22 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
-  /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
 
+  /** alans color **/
   --ion-color-alans-color: #6c9400;
   --ion-color-alans-color-rgb: 108,148,0;
   --ion-color-alans-color-contrast: #ffffff;
   --ion-color-alans-color-contrast-rgb: 255,255,255;
   --ion-color-alans-color-shade: #5f8200;
   --ion-color-alans-color-tint: #7b9f1a;
+
+  /** primary **/
+  --ion-color-primary: #be402f;
+  --ion-color-primary-rgb: 190,64,47;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #a73829;
+  --ion-color-primary-tint: #c55344;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -81,6 +83,15 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-alans-color {
+  --ion-color-base: var(--ion-color-alans-color);
+  --ion-color-base-rgb: var(--ion-color-alans-color-rgb);
+  --ion-color-contrast: var(--ion-color-alans-color-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-alans-color-contrast-rgb);
+  --ion-color-shade: var(--ion-color-alans-color-shade);
+  --ion-color-tint: var(--ion-color-alans-color-tint);
 }
 
 @media (prefers-color-scheme: dark) {
